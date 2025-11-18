@@ -2,35 +2,101 @@
 <html lang="cs">
 <head>
     <meta charset="UTF-8">
-    <title>Software</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software - IT průvodce</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Software</h1>
         <nav>
-            <a href="index.html">Domů</a>
-            <a href="hardware.html">Hardware</a>
-            <a href="software.html">Software</a>
+            <div class="logo">IT průvodce</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Domů</a></li>
+                <li><a href="software.html" class="active">Software</a></li>
+                <li><a href="hardware.html">Hardware</a></li>
+            </ul>
         </nav>
     </header>
 
     <main>
-        <h2>Co je to software?</h2>
-        <p>Software jsou programy, aplikace a operační systémy, které řídí činnost počítače.</p>
+        <section class="hero">
+            <h1>Software</h1>
+            <p>Pochopení programů, které pohánějí náš digitální svět</p>
+        </section>
 
-        <h3>Druhy softwaru:</h3>
-        <ul>
-            <li>Operační systémy (Windows, Linux, macOS)</li>
-            <li>Kancelářské programy (Word, Excel)</li>
-            <li>Hry</li>
-            <li>Webové prohlížeče</li>
-            <li>Antiviry</li>
-        </ul>
+        <section class="content">
+            <h2>Co je software?</h2>
+            <p>Software se skládá z programů, dat a instrukcí, které počítači říkají, jak provádět konkrétní úkoly. Na rozdíl od hardwaru je software nehmotný a může být aktualizován nebo změněn bez fyzických úprav.</p>
+
+            <h2>Typy softwaru</h2>
+            
+            <div class="software-type">
+                <h3>1. Systémový software</h3>
+                <p>Software, který spravuje a řídí hardware počítače a poskytuje platformu pro běh aplikačního softwaru.</p>
+                <ul>
+                    <li><strong>Operační systémy:</strong> Windows, macOS, Linux, Android, iOS</li>
+                    <li><strong>Ovladače zařízení:</strong> Software umožňující komunikaci hardwaru s OS</li>
+                    <li><strong>Utility:</strong> Antivirus, nástroje pro čištění disku, zálohovací nástroje</li>
+                </ul>
+            </div>
+
+            <div class="software-type">
+                <h3>2. Aplikační software</h3>
+                <p>Programy navržené k tomu, aby uživatelům pomáhaly vykonávat konkrétní úkoly.</p>
+                <ul>
+                    <li><strong>Produktivita:</strong> Microsoft Office, Google Workspace, Notion</li>
+                    <li><strong>Webové prohlížeče:</strong> Chrome, Firefox, Safari, Edge</li>
+                    <li><strong>Přehrávače médií:</strong> VLC, Spotify, Netflix</li>
+                    <li><strong>Grafika:</strong> Adobe Photoshop, GIMP, Canva</li>
+                </ul>
+            </div>
+
+            <div class="software-type">
+                <h3>3. Programovací software</h3>
+                <p>Nástroje používané vývojáři k tvorbě jiného softwaru.</p>
+                <ul>
+                    <li><strong>IDEs:</strong> Visual Studio Code, IntelliJ IDEA, Eclipse</li>
+                    <li><strong>Kompilátory:</strong> Převádějí zdrojový kód na spustitelné programy</li>
+                    <li><strong>Debuggery:</strong> Pomáhají najít a opravit chyby v kódu</li>
+                </ul>
+            </div>
+
+            <h2>Vývoj softwaru</h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3>📝 Plánování</h3>
+                    <p>Definování požadavků a návrh architektury softwaru</p>
+                </div>
+                <div class="card">
+                    <h3>⚙️ Vývoj</h3>
+                    <p>Psaní kódu a tvorba funkcí podle specifikací</p>
+                </div>
+                <div class="card">
+                    <h3>🧪 Testování</h3>
+                    <p>Identifikace chyb a zajištění kvality před vydáním</p>
+                </div>
+                <div class="card">
+                    <h3>🚀 Nasazení</h3>
+                    <p>Vydání softwaru uživatelům a jeho údržba v průběhu času</p>
+                </div>
+            </div>
+
+            <h2>Programovací jazyky</h2>
+            <p>Software je psán pomocí programovacích jazyků. Mezi populární jazyky patří:</p>
+            <div class="highlight-box">
+                <ul>
+                    <li><strong>Python:</strong> Datová věda, AI, webový vývoj</li>
+                    <li><strong>JavaScript:</strong> Webové aplikace, front-end a back-end</li>
+                    <li><strong>Java:</strong> Podnikové aplikace, vývoj pro Android</li>
+                    <li><strong>C++:</strong> Systémový software, herní enginy, výkonnostně náročné aplikace</li>
+                    <li><strong>SQL:</strong> Správa databází a dotazy</li>
+                </ul>
+            </div>
+        </section>
     </main>
 
     <footer>
-        <p>© 2025 - Web o informačních technologiích</p>
+        <p>&copy; 2025 IT průvodce. Vzdělávací zdroj o informačních technologiích.</p>
     </footer>
 </body>
 </html>

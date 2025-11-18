@@ -2,28 +2,85 @@
 <html lang="cs">
 <head>
     <meta charset="UTF-8">
-    <title>Informační technologie</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Přehled IT - Technology Hub</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Informační technologie</h1>
-        <nav>
-            <a href="index.html">Domů</a>
-            <a href="hardware.html">Hardware</a>
-            <a href="software.html">Software</a>
-        </nav>
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">IT Hub</h1>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Domů</a></li>
+                <li><a href="software.html">Software</a></li>
+                <li><a href="hardware.html">Hardware</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <h1>Vítejte v IT Hub</h1>
+            <p>Váš komplexní průvodce informačními technologiemi</p>
+        </div>
     </header>
 
-    <main>
-        <h2>Úvod do informačních technologií</h2>
-        <p>Informační technologie (IT) jsou obor zabývající se zpracováním, ukládáním, přenosem a využíváním informací pomocí počítačů a digitálních zařízení.</p>
+    <main class="container">
+        <section class="intro">
+            <h2>Co jsou informační technologie?</h2>
+            <p>Informační technologie (IT) zahrnují použití počítačů, úložišť, sítí a dalších fyzických zařízení, infrastruktury a procesů pro tvorbu, zpracování, ukládání, zabezpečení a výměnu všech forem elektronických dat.</p>
+        </section>
 
-        <p>IT je součástí moderní společnosti a používá se ve školách, práci, podnikání i ve zdravotnictví.</p>
+        <section class="cards">
+            <div class="card">
+                <div class="card-icon">💻</div>
+                <h3>Software</h3>
+                <p>Programy a aplikace, které běží na počítačích a zařízeních, od operačních systémů po mobilní aplikace.</p>
+                <a href="software.html" class="btn">Zjistit více</a>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">🖥️</div>
+                <h3>Hardware</h3>
+                <p>Fyzické součásti, které tvoří počítačové systémy a elektronická zařízení.</p>
+                <a href="hardware.html" class="btn">Zjistit více</a>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">🌐</div>
+                <h3>Sítě</h3>
+                <p>Systémy, které propojují počítače a zařízení pro sdílení zdrojů a informací.</p>
+                <a href="#" class="btn">Brzy k dispozici</a>
+            </div>
+        </section>
+
+        <section class="features">
+            <h2>Klíčové oblasti IT</h2>
+            <div class="feature-grid">
+                <div class="feature">
+                    <h4>Cloud Computing</h4>
+                    <p>Poskytování výpočetních služeb přes internet</p>
+                </div>
+                <div class="feature">
+                    <h4>Kybernetická bezpečnost</h4>
+                    <p>Ochrana systémů, sítí a dat</p>
+                </div>
+                <div class="feature">
+                    <h4>Analýza dat</h4>
+                    <p>Analýza dat pro odhalování vzorců a poznatků</p>
+                </div>
+                <div class="feature">
+                    <h4>AI & Strojové učení</h4>
+                    <p>Systémy, které se dokážou učit a přijímat rozhodnutí</p>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
-        <p>© 2025 - Web o informačních technologiích</p>
+        <div class="container">
+            <p>&copy; 2025 IT Hub. Všechna práva vyhrazena.</p>
+        </div>
     </footer>
 </body>
 </html>

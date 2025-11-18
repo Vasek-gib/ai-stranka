@@ -1,61 +1,141 @@
-# ai-stranka K vytvoření tohoto projektu jsem použil ChatGPT (OpenAI).
-# 🌐 Webový projekt – Informační technologie
-
-Tento projekt vznikl jako součást školního úkolu z předmětu **PVA**. 
-Cílem bylo vytvořit jednoduchý český web o **Informačních technologiích**, který obsahuje alespoň tři stránky, a vše zdokumentovat včetně použití AI nástrojů.
 
 ---
 
-## 🚀 Obsah projektu
+## 🌟 Funkce webu
 
-Web se skládá ze tří hlavních stránek:
-
-### 🔹 1. Úvod (index.html)
-- Co je informační technologie  
-- Kde se používá  
-- Proč je důležitá  
-
-### 🔹 2. Hardware (hardware.html)
-- Definice hardware  
-- Příklady součástek  
-- Vliv na výkon počítače  
-
-### 🔹 3. Software (software.html)
-- Co je software  
-- Druhy softwaru  
-- Ukázky využití  
-
-### 🎨 Styl (style.css)
-- Barevné schéma  
-- Navigace  
-- Rozložení obsahu  
+- **Responzivní design**: Funguje na počítači, tabletu i mobilu  
+- **Moderní uživatelské rozhraní**: Gradientní pozadí, plynulé přechody, karty  
+- **Snadná navigace**: Pevný header s jasnými odkazy  
+- **Vzdělávací obsah**: Komplexní informace o základech IT  
+- **Interaktivní prvky**: Efekty při najetí myší a plynulé animace  
 
 ---
 
-## 🤖 Použité AI nástroje
+## 📄 Stránky
 
-K tvorbě projektu byl použit nástroj **ChatGPT (OpenAI)**.
+### 1. Domů (index.html)
+- Úvod do informačních technologií  
+- Přehled hardwaru a softwaru  
+- Karty s odkazy na detailní stránky  
+- Význam IT v moderním světě  
 
-AI bylo využito k:
-- vygenerování základního HTML a CSS  
-- tvorbě textového obsahu stránek  
-- přípravě a úpravě README dokumentace  
-- návrhu struktury a jednoduchého designu webu  
+### 2. Software (software.html)
+- Definice softwaru  
+- Typy softwaru (systémový, aplikační, programovací)  
+- Životní cyklus vývoje softwaru  
+- Populární programovací jazyky  
 
-AI však nesloužila ke kompletní automatické tvorbě – kód byl následně ručně upraven a sestaven ve Visual Studiu.
+### 3. Hardware (hardware.html)
+- Definice hardwaru  
+- Hlavní komponenty počítače (CPU, RAM, úložiště, GPU, atd.)  
+- Vstupní a výstupní zařízení  
+- Různé typy počítačů  
+- Tipy pro údržbu hardwaru  
+
+---
+
+## 🎨 Design webu
+
+- **Barevné schéma**: Fialový gradient (#667eea až #764ba2)  
+- **Typografie**: Segoe UI pro snadnou čitelnost  
+- **Rozložení**: CSS Grid a Flexbox pro responzivní layout  
+- **Karty**: Interaktivní karty s efekty při najetí myší  
+- **Stíny**: Jemné stíny pro hloubku a moderní vzhled  
+
+---
+
+## 🚀 Jak používat
+
+1. **Stáhněte všechny soubory** do jedné složky  
+2. **Otevřete index.html** v prohlížeči  
+3. **Používejte navigaci** k procházení jednotlivých stránek  
+4. Všechny soubory musí být ve stejné složce, aby odkazy fungovaly  
+
+---
+
+## 💻 Kompatibilita s prohlížeči
+
+Web funguje ve všech moderních prohlížečích:  
+- Google Chrome  
+- Mozilla Firefox  
+- Microsoft Edge  
+- Safari  
+- Opera  
+
+---
+
+## 📱 Responzivní breakpoints
+
+- **Desktop**: Plný layout s vícesloupcovou strukturou  
+- **Tablet (≤768px)**: Upravené rozložení  
+- **Mobil (≤768px)**: Jednosloupcové zobrazení  
 
 ---
 
 ## 🛠 Použité technologie
 
-Tento projekt je vytvořen pomocí:
-
-- **HTML5** – hlavní kostra webu  
-- **CSS3** – stylování a vzhled  
-- **Git & GitHub** – verzování a zveřejnění projektu  
-- **Visual Studio Code** – vývojové prostředí  
+- HTML5  
+- CSS3 (Flexbox, Grid, Gradienty, Přechody)  
+- Žádný JavaScript (statický web)  
 
 ---
 
-## 📂 Struktura repozitáře
+## 📝 Přizpůsobení
 
+1. **Barvy**: Úprava gradientů v `style.css`  
+2. **Obsah**: Úprava textu v HTML souborech  
+3. **Písma**: Změna font-family v `body` selektoru  
+4. **Layout**: Úprava grid sloupců a mezery v CSS  
+
+---
+
+## 🎯 Cíle webu
+
+Uživatelé se naučí:  
+- Základní IT koncepty  
+- Rozdíl mezi hardwarem a softwarem  
+- Typy a účely softwaru  
+- Funkce jednotlivých počítačových komponent  
+- Jak spolu různé technologie spolupracují  
+
+---
+
+## 📚 Budoucí rozšíření
+
+- Stránka o sítích  
+- Základy bezpečnosti  
+- Databázové koncepty  
+- Cloud computing sekce  
+- Interaktivní kvízy  
+- Vyhledávání na webu  
+- Tmavý režim  
+
+---
+
+## 👥 Cílová skupina
+
+- Studenti učící se IT  
+- Začátečníci v informatice  
+- Každý, kdo chce pochopit základy technologií  
+- Učitelé hledající vzdělávací zdroje  
+
+---
+
+## 📄 Licence
+
+Tento projekt je určen pro výukové účely a je volně k použití.
+
+---
+
+## 🤝 Přispívání
+
+Klidně forkni projekt a přidej vlastní vylepšení:  
+- Přidat více obsahu  
+- Vylepšit stylování  
+- Přidat nové stránky  
+- Vytvořit interaktivní funkce  
+- Opravit případné chyby  
+
+---
+
+**Vytvořeno pro vzdělávací účely** | Poslední aktualizace: 2025
